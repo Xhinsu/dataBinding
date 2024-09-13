@@ -1,7 +1,6 @@
 package com.example.databinding.model;
 
-public class Person {
-}
+
 public class Person {
     private String name;
     private String age;
@@ -13,7 +12,7 @@ public class Person {
         this.email = email;
     }
 
-    public Person(){
+    public Person() {
     }
 
     public String getName() {
@@ -39,4 +38,5 @@ public class Person {
     public void setEmail(String email) {
         this.email = email;
     }
+}
 
